@@ -1,15 +1,15 @@
 :root {
     --color-bg: #373b41;
-    --color-fg: #EADBB2;
-    --color-link: #8F9191;
-    --color-link-visited: #668F8B;
-    --color-link-hover: #FA7921 ;
+    --color-fg: #AAAAAA;
+    --color-link: #51948d;
+    --color-link-visited: #92b2ca;
+    --color-link-hover: #535d6c;
 }
 
 html, body {
   background: var(--color-bg);
   color: var(--color-fg);
-  font-family: "Fira Code";
+  font-family: "monospace";
   height: 100%;
   width: 100%;
   margin: 0;
@@ -27,20 +27,10 @@ html, body {
   min-height: 100%;
 }
 
-.left-container {
-  grid-area: left;
-  aspect-ratio: 1/1;
-}
-
-.right-container {
-  grid-area: right;
+.center-container {
+  position: absolute;
   height: 50%;
   width: 100%;
-}
-
-.gif img {
-  max-width: 100%;
-  max-height: 100%;
 }
 
 .head {
